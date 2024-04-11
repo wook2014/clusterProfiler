@@ -10,7 +10,7 @@ TODO:
   - e.g. independent test for different omics data and then combine results
 -->
 
-# clusterProfiler 4.10.0.002
+# clusterProfiler 4.10.1
 
 + bug fixed in parsing KEGG category (2024-03-07, Thu, #664)
 + update citation (#656) and wikipedia data URL (2024-01-10, Wed, #633)
