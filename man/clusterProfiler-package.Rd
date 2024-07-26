@@ -23,7 +23,6 @@ Useful links:
 Other contributors:
 \itemize{
   \item Li-Gen Wang \email{reeganwang020@gmail.com} [contributor]
-  \item Erqiang Hu \email{woshihuerqiang@qq.com} [contributor]
   \item Xiao Luo \email{l77880853349@163.com} [contributor]
   \item Meijun Chen \email{mjchen1996@outlook.com} [contributor]
   \item Giovanni Dall'Olio \email{giovanni.dallolio@upf.edu} [contributor]

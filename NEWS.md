@@ -1,6 +1,4 @@
-# clusterProfiler 4.12.0
 
-+ Bioconductor RELEASE_3_19 (2024-05-15, Wed)
 
 <!--
 
@@ -13,6 +11,21 @@ TODO:
   - e.g. independent test of cancer sample 1 vs control 1 and cancer sample 2 vs control 2, then combine results
   - e.g. independent test for different omics data and then combine results
 -->
+
+# clusterProfiler 4.13.0.001
+
++ update `kegg_category` information (7 categories and 572 subcategories) (2024-07-26, Fri)
+  - Cellular Processes (36)                    
+  - Drug Development (75)
+  - Environmental Information Processing (41)
+  - Genetic Information Processing (39)
+  - Human Diseases (99)
+  - Metabolism (190)
+  - Organismal Systems (92)
+  
+# clusterProfiler 4.12.0
+
++ Bioconductor RELEASE_3_19 (2024-05-15, Wed)
 
 # clusterProfiler 4.10.1
 

@@ -1,6 +1,36 @@
 citHeader("Please cite T. Wu (2021) for using clusterProfiler. In addition, please cite G. Yu (2010) when using GOSemSim, G. Yu (2015) when using DOSE and G. Yu (2015) when using ChIPseeker.")
 
 
+refs <- yulab.utils:::ref_knowledge()
+
+citEntry(entry  ="ARTICLE",
+	    title = "Using clusterProfiler to characterize multiomics data",
+	    author = c(
+            person("Shuangbin", "Xu"),
+            person("Erqiang", "Hu"),
+            person("Yantong", "Cai"),
+            person("Zijing", "Xie"),
+            person("Xiao", "Luo"),
+            person("Li", "Zhan"),
+            person("Wenli", "Tang"),
+            person("Qianwen", "Wang"),
+            person("Bingdong", "Liu"),
+            person("Rui", "Wang"),
+            person("Wenqin", "Xie"),
+            person("Tianzhi", "Wu"),
+            person("Liwei", "Xie"),
+            person("Guangchuang", "Yu")
+            ),
+    	issn = "1750-2799",
+	    url = "https://www.nature.com/articles/s41596-024-01020-z",
+    	doi = "10.1038/s41596-024-01020-z",
+    	journal = "Nature Protocols",
+    	month = "Jul",
+	    year = "2024",
+    	pages = "",
+        textVersion = refs['clusterProfiler_NP']
+)
+
 citEntry(entry  ="ARTICLE",
          title  = "clusterProfiler 4.0: A universal enrichment tool for interpreting omics data",
          author = c(
@@ -26,10 +56,7 @@ citEntry(entry  ="ARTICLE",
          pages   = "100141",
          PMID    = "",
          doi     = "10.1016/j.xinn.2021.100141",
-         textVersion = paste("T Wu, E Hu, S Xu, M Chen, P Guo, Z Dai, T Feng, L Zhou,",
-                             "W Tang, L Zhan, X Fu, S Liu, X Bo, and G Yu.", 
-                             "clusterProfiler 4.0: A universal enrichment tool for interpreting omics data.", 
-                             "The Innovation. 2021, 2(3):100141")
+         textVersion = refs['clusterProfiler_Innovation']
          )
 
 citEntry(entry  ="ARTICLE",
@@ -47,7 +74,5 @@ citEntry(entry  ="ARTICLE",
          pages   = "284-287",
          PMID    = "22455463",
          doi     = "10.1089/omi.2011.0118",
-         textVersion = paste("Guangchuang Yu, Li-Gen Wang, Yanyan Han and Qing-Yu He.",
-             "clusterProfiler: an R package for comparing biological themes among gene clusters.",
-             "OMICS: A Journal of Integrative Biology 2012, 16(5):284-287")
+         textVersion = refs['clusterProfiler']
          )
