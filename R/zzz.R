@@ -19,16 +19,6 @@
     # Define a cache directory
     options(clusterProfiler_cache_dir = tempdir())
 
-    
-    # citation <- paste0("If you use ", pkgname, " in published research, please cite:\n",
-    #                    "T Wu, E Hu, S Xu, M Chen, P Guo, Z Dai, T Feng, L Zhou, ",
-    #                    "W Tang, L Zhan, X Fu, S Liu, X Bo, and G Yu. ", 
-    #                    "clusterProfiler 4.0: A universal enrichment tool for interpreting omics data. ", 
-    #                    "The Innovation. 2021, 2(3):100141")
-                       
-
-    # packageStartupMessage(paste0(msg, citation))
-
     packageStartupMessage(yulab.utils::yulab_msg(pkgname))
 }
 
