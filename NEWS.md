@@ -12,8 +12,9 @@ TODO:
   - e.g. independent test for different omics data and then combine results
 -->
 
-# clusterProfiler 4.13.0.002
+# clusterProfiler 4.13.0.003
 
++ use `yulab.utils:::bib_knownledge()` for citation info (2024-07-27, Sat)
 + use `yulab.utils::yulab_msg()` for startup message (2024-07-26, Fri)
 + update `kegg_category` information (7 categories and 572 subcategories) (2024-07-26, Fri)
   - Cellular Processes (36)                    

@@ -1,78 +1,9 @@
 citHeader("Please cite T. Wu (2021) for using clusterProfiler. In addition, please cite G. Yu (2010) when using GOSemSim, G. Yu (2015) when using DOSE and G. Yu (2015) when using ChIPseeker.")
 
 
-refs <- yulab.utils:::ref_knowledge()
+bib_knownledge <- getFromNamespace("bib_knownledge", 'yulab.utils')
 
-citEntry(entry  ="ARTICLE",
-	    title = "Using clusterProfiler to characterize multiomics data",
-	    author = c(
-            person("Shuangbin", "Xu"),
-            person("Erqiang", "Hu"),
-            person("Yantong", "Cai"),
-            person("Zijing", "Xie"),
-            person("Xiao", "Luo"),
-            person("Li", "Zhan"),
-            person("Wenli", "Tang"),
-            person("Qianwen", "Wang"),
-            person("Bingdong", "Liu"),
-            person("Rui", "Wang"),
-            person("Wenqin", "Xie"),
-            person("Tianzhi", "Wu"),
-            person("Liwei", "Xie"),
-            person("Guangchuang", "Yu")
-            ),
-    	issn = "1750-2799",
-	    url = "https://www.nature.com/articles/s41596-024-01020-z",
-    	doi = "10.1038/s41596-024-01020-z",
-    	journal = "Nature Protocols",
-    	month = "Jul",
-	    year = "2024",
-    	pages = "",
-        textVersion = refs['clusterProfiler_NP']
-)
+bib_knownledge('np2024')
+bib_knownledge('innovation2021')
+bib_knownledge('omics2012')
 
-citEntry(entry  ="ARTICLE",
-         title  = "clusterProfiler 4.0: A universal enrichment tool for interpreting omics data",
-         author = c(
-             person("Tianzhi", "Wu"),
-             person("Erqiang", "Hu"),
-             person("Shuangbin", "Xu"),
-             person("Meijun", "Chen"),
-             person("Pingfan", "Guo"),
-             person("Zehan", "Dai"),
-             person("Tingze", "Feng"),
-             person("Lang", "Zhou"),
-             person("Wenli", "Tang"),
-             person("Li", "Zhan"),
-             person("xiaochong", "Fu"),
-             person("Shanshan", "Liu"),
-             person("Xiaochen", "Bo"),
-             person("Guangchuang", "Yu")
-             ),
-         journal = "The Innovation",
-         year    = "2021",
-         volume  = "2",
-         number  = "3",
-         pages   = "100141",
-         PMID    = "",
-         doi     = "10.1016/j.xinn.2021.100141",
-         textVersion = refs['clusterProfiler_Innovation']
-         )
-
-citEntry(entry  ="ARTICLE",
-         title  = "clusterProfiler: an R package for comparing biological themes among gene clusters",
-         author = personList(
-             as.person("Guangchuang Yu"),
-             as.person("Li-Gen Wang"),
-             as.person("Yanyan Han"),
-             as.person("Qing-Yu He")
-             ),
-         journal = "OMICS: A Journal of Integrative Biology",
-         year    = "2012",
-         volume  = "16",
-         number  = "5",
-         pages   = "284-287",
-         PMID    = "22455463",
-         doi     = "10.1089/omi.2011.0118",
-         textVersion = refs['clusterProfiler']
-         )
