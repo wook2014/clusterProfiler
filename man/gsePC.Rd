@@ -4,14 +4,10 @@
 \alias{gsePC}
 \title{gsePC}
 \usage{
-gsePC(geneList, source, keyType, ...)
+gsePC(geneList, ...)
 }
 \arguments{
 \item{geneList}{a ranked gene list}
-
-\item{source}{Data source of Pathway Commons, e.g., 'reactome', 'kegg', 'pathbank', 'netpath', 'panther', etc.}
-
-\item{keyType}{specify the type of input 'gene' (one of 'hgnc' or 'uniprot')}
 
 \item{...}{additional parameters, see also the parameters supported by the GSEA() function}
 }

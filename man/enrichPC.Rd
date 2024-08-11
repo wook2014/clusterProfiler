@@ -4,14 +4,10 @@
 \alias{enrichPC}
 \title{enrichPC}
 \usage{
-enrichPC(gene, source, keyType = "hgnc", ...)
+enrichPC(gene, ...)
 }
 \arguments{
 \item{gene}{a vector of genes (either hgnc symbols or uniprot IDs)}
-
-\item{source}{Data source of Pathway Commons, e.g., 'reactome', 'kegg', 'pathbank', 'netpath', 'panther', etc.}
-
-\item{keyType}{specify the type of input 'gene' (one of 'hgnc' or 'uniprot')}
 
 \item{...}{additional parameters, see also the parameters supported by the enricher() function}
 }
