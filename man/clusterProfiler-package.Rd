@@ -11,8 +11,7 @@ This package supports functional characteristics of both coding and non-coding g
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://yulab-smu.top/biomedical-knowledge-mining-book/ (docs)}
-  \item \doi{10.1016/j.xinn.2021.100141 (paper)}
+  \item \url{https://yulab-smu.top/contribution-knowledge-mining/}
   \item Report bugs at \url{https://github.com/GuangchuangYu/clusterProfiler/issues}
 }
 

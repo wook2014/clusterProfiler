@@ -12,7 +12,7 @@ TODO:
   - e.g. independent test for different omics data and then combine results
 -->
 
-# clusterProfiler 4.13.0.004
+# clusterProfiler 4.13.1
 
 + update functions to access PathwayCommons data (2024-08-11, Sun) 
 + use `yulab.utils:::bib_knownledge()` for citation info (2024-07-27, Sat)

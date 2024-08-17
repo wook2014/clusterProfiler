@@ -1,21 +1,4 @@
 
-# # the `yread` is a better solution
-# mydownload <- function(url, method = NULL, quiet = TRUE, ...) {
-#     if (is.null(method))
-#         method <- getOption("clusterProfiler.download.method")
-
-#     if (!is.null(method) && method != "auto") { 
-#         dl <- tryCatch(utils::download.file(url, quiet = TRUE, method = method, ...),
-#                        error = function(e) NULL)       
-#     } else {
-#         dl <- tryCatch(downloader::download(url, quiet = TRUE, ...),
-#                        error = function(e) NULL)        
-#     }
-
-#     return(dl)
-# }
-
-
 
 GI2EG <- function(GI, organism="D39") {
     gi <- as.character(GI)
