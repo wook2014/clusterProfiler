@@ -12,9 +12,13 @@ TODO:
   - e.g. independent test for different omics data and then combine results
 -->
 
+# clusterProfiler 4.13.1.001
+
++ fixed bug of `gson_KEGG()` (2024-08-19, Mon)
+
 # clusterProfiler 4.13.1
 
-+ update functions to access PathwayCommons data (2024-08-11, Sun) 
++ update functions to access PathwayCommons data (2024-08-11, Sun, gson#9) 
 + use `yulab.utils:::bib_knownledge()` for citation info (2024-07-27, Sat)
 + use `yulab.utils::yulab_msg()` for startup message (2024-07-26, Fri)
 + update `kegg_category` information (7 categories and 572 subcategories) (2024-07-26, Fri)

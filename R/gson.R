@@ -19,9 +19,8 @@ gson_KEGG <- function(species, KEGG_Type="KEGG", keyType="kegg") {
         species = species,
         gsname = "KEGG",
         version = version,
-        accessed_date = as.character(Sys.Date(),
-        keytype = "ENTREZID")
-    )
+        accessed_date = as.character(Sys.Date()),
+        keytype = keyType)
 }
 
 
