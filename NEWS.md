@@ -12,7 +12,7 @@ TODO:
   - e.g. independent test for different omics data and then combine results
 -->
 
-# clusterProfiler 4.13.1.001
+# clusterProfiler 4.13.2
 
 + fixed bug of `gson_KEGG()` (2024-08-19, Mon)
 

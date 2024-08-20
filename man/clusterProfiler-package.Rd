@@ -12,7 +12,7 @@ This package supports functional characteristics of both coding and non-coding g
 Useful links:
 \itemize{
   \item \url{https://yulab-smu.top/contribution-knowledge-mining/}
-  \item Report bugs at \url{https://github.com/GuangchuangYu/clusterProfiler/issues}
+  \item Report bugs at \url{https://github.com/YuLab-SMU/clusterProfiler/issues}
 }
 
 }
