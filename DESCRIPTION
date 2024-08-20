@@ -12,7 +12,11 @@ Authors@R: c(
     person(given = "Chun-Hui",    family = "Gao",       email = "gaospecial@gmail.com",      role = "ctb", comment = c(ORCID = "0000-0002-1445-7939"))
 	)
 Maintainer: Guangchuang Yu <guangchuangyu@gmail.com>
-Description: This package supports functional characteristics of both coding and non-coding genomics data for thousands of species with up-to-date gene annotation. It provides a univeral interface for gene functional annotation from a variety of sources and thus can be applied in diverse scenarios. It provides a tidy interface to access, manipulate, and visualize enrichment results to help users achieve efficient data interpretation. Datasets obtained from multiple treatments and time points can be analyzed and compared in a single run, easily revealing functional consensus and differences among distinct conditions.
+Description: This package supports functional characteristics of both coding and non-coding genomics data for thousands of species with up-to-date gene annotation. 
+    It provides a univeral interface for gene functional annotation from a variety of sources and thus can be applied in diverse scenarios. 
+    It provides a tidy interface to access, manipulate, and visualize enrichment results to help users achieve efficient data interpretation. 
+    Datasets obtained from multiple treatments and time points can be analyzed and compared in a single run, easily revealing functional consensus 
+    and differences among distinct conditions.
 Depends:
     R (>= 3.5.0)
 Imports:
@@ -48,7 +52,7 @@ VignetteBuilder: knitr
 ByteCompile: true
 License: Artistic-2.0
 URL: https://yulab-smu.top/contribution-knowledge-mining/
-BugReports: https://github.com/GuangchuangYu/clusterProfiler/issues
+BugReports: https://github.com/YuLab-SMU/clusterProfiler/issues
 Packaged: NA
 biocViews: Annotation, Clustering, GeneSetEnrichment, GO, KEGG,
     MultipleComparison, Pathways, Reactome, Visualization
