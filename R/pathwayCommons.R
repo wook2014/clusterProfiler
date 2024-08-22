@@ -20,7 +20,7 @@ enrichPC <- function(gene, ...) {
 
     res@ontology <- pcdata@gsname
     res@organism <- pcdata@species
-    res@keytype <-  keyType
+    # res@keytype <-  keyType
 
     return(res)
 }
@@ -48,13 +48,13 @@ gsePC <- function(geneList, ...) {
 
     res@ontology <- pcdata@gsname
     res@organism <- pcdata@species
-    res@keytype <-  keyType
+    # res@keytype <-  keyType
 
     return(res)
 }
 
-prepare_pc_data <- function(source, keyType) {
-    pc2gene <- get_pc_data(source, keyType, output = 'data.frame')
+prepare_pc_data <- function() {
+    pc2gene <- get_pc_data(output = 'data.frame')
     ##TERM2GENE
     pcid2gene <- pc2gene[, c("id", "gene")]
     ##TERM2NAME
