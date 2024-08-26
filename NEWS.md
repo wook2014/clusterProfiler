@@ -12,6 +12,10 @@ TODO:
   - e.g. independent test for different omics data and then combine results
 -->
 
+# clusterProfiler 4.13.3
+
++ fixed bug in `enrichPC()` (2024-08-26, Mon)
+
 # clusterProfiler 4.13.2
 
 + fixed bug of `gson_KEGG()` (2024-08-19, Mon)
