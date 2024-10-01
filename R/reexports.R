@@ -1,3 +1,12 @@
+#' @importFrom DOSE enrichDO
+#' @export 
+DOSE::enrichDO
+
+#' @importFrom DOSE gseDO
+#' @export 
+DOSE::gseDO
+
+
 ##' @importFrom GOSemSim read.gaf
 ##' @export
 GOSemSim::read.gaf

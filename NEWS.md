@@ -12,6 +12,10 @@ TODO:
   - e.g. independent test for different omics data and then combine results
 -->
 
+# clusterProfiler 4.13.4
+
++ re-export `DOSE::enrichDO()` and `DOSE::gseDO()` (2024-10-01, Tue)
+
 # clusterProfiler 4.13.3
 
 + fixed bug in `enrichPC()` (2024-08-26, Mon)

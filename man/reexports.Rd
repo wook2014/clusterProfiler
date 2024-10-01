@@ -14,6 +14,8 @@
 \alias{gseaplot}
 \alias{heatplot}
 \alias{ridgeplot}
+\alias{enrichDO}
+\alias{gseDO}
 \alias{read.gaf}
 \alias{read.blast2go}
 \alias{buildGOmap}
@@ -37,7 +39,7 @@ These objects are imported from other packages. Follow the links
 below to see their documentation.
 
 \describe{
-  \item{DOSE}{\code{\link[DOSE]{geneID}}, \code{\link[DOSE]{geneInCategory}}, \code{\link[DOSE]{gsfilter}}, \code{\link[DOSE]{setReadable}}}
+  \item{DOSE}{\code{\link[DOSE]{enrichDO}}, \code{\link[DOSE]{geneID}}, \code{\link[DOSE]{geneInCategory}}, \code{\link[DOSE]{gseDO}}, \code{\link[DOSE]{gsfilter}}, \code{\link[DOSE]{setReadable}}}
 
   \item{dplyr}{\code{\link[dplyr]{arrange}}, \code{\link[dplyr]{filter}}, \code{\link[dplyr]{group_by}}, \code{\link[dplyr]{mutate}}, \code{\link[dplyr:context]{n}}, \code{\link[dplyr]{rename}}, \code{\link[dplyr]{select}}, \code{\link[dplyr]{slice}}, \code{\link[dplyr]{summarise}}}
 
