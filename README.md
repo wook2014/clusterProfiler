@@ -32,8 +32,10 @@ Status](https://img.shields.io/appveyor/ci/Guangchuangyu/clusterProfiler/master.
   analyzed and compared in a single run, easily revealing functional
   consensus and differences among distinct conditions
 
-For details, please visit
-<https://yulab-smu.top/biomedical-knowledge-mining-book/>.
+For details, please visit:
+
+- <https://yulab-smu.top/contribution-knowledge-mining/>
+- <https://yulab-smu.top/biomedical-knowledge-mining-book/>
 
 <img src="graphic-abstract-The-Innovation-2021.jpg" width="890"/>
 
@@ -52,9 +54,8 @@ list:
 
 1.  S Xu<sup>\#</sup>, E Hu<sup>\#</sup>, Y Cai<sup>\#</sup>, Z
     Xie<sup>\#</sup>, X Luo<sup>\#</sup>, L Zhan, W Tang, Q Wang, B Liu,
-    R Wang, W Xie, T Wu, L Xie, **G Yu**<sup>\*</sup>. [Using
-    clusterProfiler to characterise Multi-Omics
-    Data](https://www.nature.com/articles/s41596-024-01020-z). ***Nature
+    R Wang, W Xie, T Wu, L Xie, **G Yu**<sup>\*</sup>. Using
+    clusterProfiler to characterise Multi-Omics Data. ***Nature
     Protocols***. 2024, accepted. doi:
     [10.1038/s41596-024-01020-z](https://doi.org/10.1038/s41596-024-01020-z)
 2.  T Wu<sup>\#</sup>, E Hu<sup>\#</sup>, S Xu, M Chen, P Guo, Z Dai, T
