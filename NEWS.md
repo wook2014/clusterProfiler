@@ -1,9 +1,3 @@
-# clusterProfiler 4.14.0
-
-+ Bioconductor RELEASE_3_20 (2024-10-30, Wed)
-
-
-
 <!--
 
 TODO:
@@ -15,6 +9,15 @@ TODO:
   - e.g. independent test of cancer sample 1 vs control 1 and cancer sample 2 vs control 2, then combine results
   - e.g. independent test for different omics data and then combine results
 -->
+
+# clusterProfiler 4.15.0.001
+
++ add new citation (2024-11-07, Thu)
+  - <https://doi.org/10.1016/j.xinn.2024.100722>
+
+# clusterProfiler 4.14.0
+
++ Bioconductor RELEASE_3_20 (2024-10-30, Wed)
 
 # clusterProfiler 4.13.4
 
