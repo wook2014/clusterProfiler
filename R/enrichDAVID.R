@@ -1,25 +1,22 @@
-##' enrichment analysis by DAVID
-##'
-##'
-##' @title enrichDAVID
-##' @param gene input gene
-##' @param idType id type
-##' @param minGSSize minimal size of genes annotated for testing
-##' @param maxGSSize maximal size of genes annotated for testing
-##' @param annotation david annotation
-##' @inheritParams enricher
-##' @param species species
-##' @param david.user david user
-##' @return A \code{enrichResult} instance
-## @importFrom RDAVIDWebService DAVIDWebService
-## @importFrom RDAVIDWebService addList
-## @importFrom RDAVIDWebService setAnnotationCategories
-## @importFrom RDAVIDWebService getFunctionalAnnotationChart
-## @importFrom RDAVIDWebService getSpecieNames
-##' @importFrom qvalue qvalue
-##' @importFrom utils installed.packages
-##' @export
-##' @author Guangchuang Yu
+#' enrichment analysis by DAVID
+#'
+#'
+#' @title enrichDAVID
+#' @param gene input gene
+#' @param idType id type
+#' @param minGSSize minimal size of genes annotated for testing
+#' @param maxGSSize maximal size of genes annotated for testing
+#' @param annotation david annotation
+#' @inheritParams enricher
+#' @param species species
+#' @param david.user david user
+#' @return A \code{enrichResult} instance
+#' @importFrom qvalue qvalue
+#' @importFrom utils installed.packages
+#' @importFrom yulab.utils get_fun_from_pkg
+#' @importFrom yulab.utils is.installed
+#' @export
+#' @author Guangchuang Yu
 enrichDAVID <- function(gene,
                         idType        = "ENTREZ_GENE_ID",
                         universe,
@@ -37,21 +34,19 @@ enrichDAVID <- function(gene,
     pAdjustMethod <- match.arg(pAdjustMethod, c("bonferroni", "BH"))
 
     david.pkg <- "RDAVIDWebService"
-    pkgs <- installed.packages()[,1]
-    if (! david.pkg %in% pkgs) {
-        stop("You should have RDAVIDWebService package installed before using enrichDAVID...")
+    if (! is.installed(david.pkg)) {
+        stop("You should have RDAVIDWebService package installed before using enrichDAVID ...")
     }
 
-    require(david.pkg, character.only=TRUE)
-    DAVIDWebService <- eval(parse(text="DAVIDWebService"))
-    addList <- eval(parse(text="addList"))
-    setAnnotationCategories <- eval(parse(text="setAnnotationCategories"))
-    getFunctionalAnnotationChart <- eval(parse(text="getFunctionalAnnotationChart"))
-    getSpecieNames <- eval(parse(text="getSpecieNames"))
-    getIdTypes <- eval(parse(text="getIdTypes"))
+    DAVIDWebService <- get_fun_from_pkg(david.pkg, "DAVIDWebService")
+    addList <- get_fun_from_pkg(david.pkg, "addList")
+    setAnnotationCategories <- get_fun_from_pkg(david.pkg, "setAnnotationCategories")
+    getFunctionalAnnotationChart <- get_fun_from_pkg(david.pkg, "getFunctionalAnnotationChart")
+    getSpecieNames <- get_fun_from_pkg(david.pkg, "getSpecieNames")
+    getIdTypes <- get_fun_from_pkg(david.pkg, "getIdTypes")
 
     david <- DAVIDWebService$new(email=david.user,
-                                 url="https://david.ncifcrf.gov/webservice/services/DAVIDWebService.DAVIDWebServiceHttpSoap12Endpoint/")
+            url="https://davidbioinformatics.nih.gov/webservice/services/DAVIDWebService/") 
 
     ## addList will throw error if idType is not match.
     ## use match.arg to check before addList make it more readable

@@ -10,8 +10,11 @@ TODO:
   - e.g. independent test for different omics data and then combine results
 -->
 
-# clusterProfiler 4.15.0.001
+# clusterProfiler 4.15.0.002
 
+
++ update DAVID Web Service URL to make `enrichDAVID()` work properly (2024-11-09, Sat)
+  - <https://davidbioinformatics.nih.gov/content.jsp?file=WS.html>
 + add new citation (2024-11-07, Thu)
   - <https://doi.org/10.1016/j.xinn.2024.100722>
 
