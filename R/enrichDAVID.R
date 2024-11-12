@@ -107,12 +107,29 @@ enrichDAVID <- function(gene,
     term.df <- do.call("rbind", term.list)
     ID <- term.df[,1]
     Description <- term.df[,2]
-    GeneRatio <- with(x, paste(Count, List.Total, sep="/"))
-    BgRatio <- with(x, paste(Pop.Hits, Pop.Total, sep="/"))
+    k <- x$Count
+    n <- x$List.Total
+    M <- x$Pop.Hits
+    N <- x$Pop.Total
+
+    # GeneRatio <- with(x, paste(Count, List.Total, sep="/"))
+    # BgRatio <- with(x, paste(Pop.Hits, Pop.Total, sep="/"))
+    GeneRatio <- sprintf("%s/%s", k, n)
+    BgRatio <- sprintf("%s/%s", M, N)
+    RichFactor <- k / M
+    FoldEnrichment <- RichFactor * N / n 
+    
+    mu <- M * n / N
+    sigma <- mu * (N - n) * (N - M) / N / (N-1)
+    zScore <- (k - mu)/sqrt(sigma)
+
     Over <- data.frame(ID          = ID,
                        Description = Description,
                        GeneRatio   = GeneRatio,
                        BgRatio     = BgRatio,
+                       RichFactor = RichFactor,
+                       FoldEnrichment = FoldEnrichment,
+                       zScore = zScore, 
                        pvalue      = x$PValue,
                        stringsAsFactors = FALSE)
     row.names(Over) <- ID
