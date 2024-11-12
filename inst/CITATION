@@ -37,7 +37,6 @@ citEntry(
         person("Liwei", "Xie"),
         person("Guangchuang", "Yu")
         ),
-    issn = "1750-2799",
 	url = "https://www.nature.com/articles/s41596-024-01020-z",
     doi = "10.1038/s41596-024-01020-z",
     journal = "Nature Protocols",
