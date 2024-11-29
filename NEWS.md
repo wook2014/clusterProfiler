@@ -10,6 +10,10 @@ TODO:
   - e.g. independent test for different omics data and then combine results
 -->
 
+# clusterProfiler 4.15.1.001
+
++ remove input duplicated genes in `groupGO()` (2024-11-29, Fri, #741)
+ 
 # clusterProfiler 4.15.1
 
 + `simplify()` keeps the most informative term if there exist multiple terms that meets the criteria (2024-11-29, Fri, #744)
