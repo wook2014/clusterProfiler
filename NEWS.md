@@ -10,8 +10,9 @@ TODO:
   - e.g. independent test for different omics data and then combine results
 -->
 
-# clusterProfiler 4.15.0.003
+# clusterProfiler 4.15.1
 
++ `simplify()` keeps the most informative term if there exist multiple terms that meets the criteria (2024-11-29, Fri, #744)
 + add 'RichFactor', 'FoldEnrichment' and 'zScore' in `enrichDAVID()` result (2024-11-12, Tue)
 + update DAVID Web Service URL to make `enrichDAVID()` work properly (2024-11-09, Sat)
   - <https://davidbioinformatics.nih.gov/content.jsp?file=WS.html>
