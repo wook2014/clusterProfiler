@@ -10,8 +10,9 @@ TODO:
   - e.g. independent test for different omics data and then combine results
 -->
 
-# clusterProfiler 4.15.1.001
+# clusterProfiler 4.15.1.002
 
++ more general regular pattern to remove species suffix in KEGG pathway name (2025-02-27, Thu)
 + remove input duplicated genes in `groupGO()` (2024-11-29, Fri, #741)
  
 # clusterProfiler 4.15.1
